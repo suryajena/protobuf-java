@@ -4,7 +4,9 @@ Protocol buffers are Google’s language-neutral, platform-neutral, extensible m
 
 To serialize/deserialize any object , this is one best format. We first define a metadata of the object in a .proto file and then with corresponding java object that are generated from this proto file, we can serialize/deseailze a object.
 
-> pom.xml
+Follow below 3 steps ..
+
+1> pom.xml
 ```XML
 <phase>generate-sources</phase>
 <goals>
