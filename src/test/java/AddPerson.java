@@ -4,6 +4,9 @@ import com.example.tutorial.AddressBookProtos.Person;
 
 import java.io.*;
 
+/**
+ * add person
+ */
 class AddPerson {
     // This function fills in a Person message based on user input.
     static Person PromptForAddress(BufferedReader stdin,
